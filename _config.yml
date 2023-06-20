@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: 沒骨
+title: title 
 
 # Your name to show in the footer
 author: morkalmarrh
@@ -23,8 +23,8 @@ navbar-links:
   About: "aboutme"
   Portfolio: "portfolio"
   Other:
-    - Dummy Thicc Link : ""
-    - Svelte Link : "" 
+    - Dummy Thicc Link : "/assets/img/060522tanvir.png"
+    - Svelte Link : "/assets/img/060522tanvir.png" 
 
 ################
 # --- Logo --- #
@@ -50,10 +50,11 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  # email:
-   rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  email: "someone@example.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: morkalmarrh
   twitter: morkalmarrh
+  spotify: schemilix
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -61,7 +62,6 @@ social-network-links:
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-  spotify: schemilix
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
