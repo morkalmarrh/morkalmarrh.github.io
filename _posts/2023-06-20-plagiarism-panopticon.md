@@ -3,7 +3,7 @@ layout: post
 title: Recent Works
 comments: true
 cover-img: /assets/img/theknight.png
-thumbnail-img: /assets/img/ger_thumg.png
+thumbnail-img: /assets/img/ger_thumb.png
 tags: [art, digital, visdev]
 ---
 
