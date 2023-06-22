@@ -14,7 +14,7 @@ tags: [art, digital, visdev, 3d]
  
 ## Gallery
 
-[![Tanvir, using Halftone shader in Blender from itch.io](/assets/img/tanvirhalftone_thumb.png#circ)](/assets/img/tanvirhalftone.png) [![Tanvir as i painted him, with some additions](060522tanvir2_thumb.png#circ)](/assets/img/060522tanvir2.png) 
+[![Tanvir, using Halftone shader in Blender from itch.io](/assets/img/tanvirhalftone_thumb.png#circ)](/assets/img/tanvirhalftone.png) [![Tanvir as i painted him, with some additions](/assets/img/060522tanvir2_thumb.png#circ)](/assets/img/060522tanvir2.png) 
 [![Early 3D render of Signal](/assets/img/her_thumb.png#circ)](/assets/img/her.png) [![Signal & Virufer](/assets/img/virufer_thumb.png#circ)](/assets/img/virufer.png)
 
 ### Bonus Round
