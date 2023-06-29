@@ -78,6 +78,7 @@ function showResults(){
   let max_answer = getMaxValueKey(scoreDict);
   let answerString = ansDict[max_answer];
   resultsContainer.innerHTML = answerString;
+}
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
@@ -90,10 +91,10 @@ const myQuestions = [
     answers: {
       a: "Snake",
       b: "Spider",
-      c: "Eel"
-      d: "Falcon"
-      e: "Horse"
-      f: "Houseplant"
+      c: "Eel",
+      d: "Falcon",
+      e: "Horse",
+      f: "Houseplant",
     },
     answerMap: {a: "1st", b: "2nd"}
   },
