@@ -23,8 +23,8 @@ navbar-links:
   About: "aboutme"
   Portfolio: "portfolio"
   Other:
-    - Dummy Thicc Link : "/assets/img/060522tanvir.png"
-    - Svelte Link : "/assets/img/060522tanvir.png" 
+    - Coming Soon : ""
+    - Coming Soon : "" 
 
 ################
 # --- Logo --- #
