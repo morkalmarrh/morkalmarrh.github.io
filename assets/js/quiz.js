@@ -1,6 +1,3 @@
----
----
-
 // Adapted from https://www.sitepoint.com/simple-javascript-quiz/ - WIP
 
 (function(){
