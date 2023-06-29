@@ -73,12 +73,11 @@ function showResults(){
     const userAnswer = answerMap[(answerContainer.querySelector(selector) || {}).value];
     
     scoreDict[userAnswer] = scoreDict[userAnswer]++;
-  };
+  });
+  
   let max_answer = getMaxValueKey(scoreDict);
   let answerString = ansDict[max_answer];
   resultsContainer.innerHTML = answerString;
-};
-
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
