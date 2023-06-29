@@ -1,5 +1,9 @@
+---
+---
+
 // Adapted from https://www.sitepoint.com/simple-javascript-quiz/ - WIP
 
+(function(){
 //https://michaelmovsesov.com/articles/get-key-with-highest-value-from-javascript-object
 function getMaxValueKey(obj){
   return Object.keys(obj).reduce((a, b) => obj[a] > obj[b] ? a : b);
@@ -123,3 +127,4 @@ buildQuiz();
 
 // on submit, show results
 submitButton.addEventListener('click', showResults);
+})();
