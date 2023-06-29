@@ -70,7 +70,7 @@ function showResults(){
     // find selected answer
     const answerContainer = answerContainers[questionNumber];
     const selector = `input[name=question${questionNumber}]:checked`;
-    const userAnswer = answerMap[(answerContainer.querySelector(selector) || {}).value];
+    const userAnswer = currentQuestion.answerMap[(answerContainer.querySelector(selector) || {}).value];
     
     scoreDict[userAnswer] = scoreDict[userAnswer]++;
   });
