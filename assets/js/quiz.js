@@ -77,7 +77,7 @@ function showResults(){
   let max_answer = getMaxValueKey(scoreDict);
   let answerString = ansDict[max_answer];
   resultsContainer.innerHTML = answerString;
-}
+};
 
 
 const quizContainer = document.getElementById('quiz');
