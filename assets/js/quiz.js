@@ -105,7 +105,7 @@ const myQuestions = [
       b: "TypeScript",
       c: "npm"
     },
-    answerMap: "c"
+    answerMap: {a: "1st", b: "2nd"}
   },
   {
     question: "Which tool can you use to ensure code quality?",
@@ -115,7 +115,7 @@ const myQuestions = [
       c: "RequireJS",
       d: "ESLint"
     },
-    answerMap: "d"
+    answerMap: {a: "1st", b: "2nd"}
   }
 ];
 
