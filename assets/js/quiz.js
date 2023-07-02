@@ -145,7 +145,7 @@ const myQuestions = [
       d: "Spear of Javelin",
       e: "Trident or Harpoon",
       f: "Gun.",
-      f: "I'm a lover, not a fighter"
+      g: "I'm a lover, not a fighter"
     },
     answerMap: {a: "4", b: "1", c: "2", d: "3", e: "5", f: "7", g: "6"}
   },
