@@ -1198,7 +1198,6 @@ pre {
 	cursor: pointer;
     box-shadow: 0;
     background: 0;
-    z-index: 2;
 }
 
 .quiz-button:hover {
@@ -1206,5 +1205,7 @@ pre {
 }
 
 .centre {
+  margin-top: 20px;
   text-align: center;
+  z-index: 2;
 }
