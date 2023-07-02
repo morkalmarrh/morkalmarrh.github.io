@@ -95,7 +95,7 @@ function showSlide(n) {
   let slideDiv = slides[n];
   let slideAnswers = slideDiv.querySelectorAll('.answers');
   let currentAnswer = slideAnswers[0];
-  quizAnswer.innerHTML = currentAnswer.height;
+  quizContainer.innerHTML = currentAnswer.height;
   quizContainer.style.height = currentAnswer.height;
   if(currentSlide === 0){
     previousButton.style.display = 'none';
