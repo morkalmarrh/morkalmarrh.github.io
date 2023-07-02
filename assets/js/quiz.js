@@ -47,7 +47,7 @@ function showResults(){
   const answerContainers = quizContainer.querySelectorAll('.answers');
   // keep track of user's answers
   let scoreDict = {
-    1: 0,
+    1: 2,
     2: 0,
 	3: 0,
 	4: 0,
@@ -78,6 +78,7 @@ function showResults(){
   });
   
   let max_answer = getMaxValueKey(scoreDict);
+  
   let answerString = ansDict[max_answer];
   resultsContainer.innerHTML = answerString;
 }
