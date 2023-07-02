@@ -61,7 +61,8 @@ function showResults(){
         You're a first type.`,
     2: `<img src = "/assets/img/2ndeyes.png"></img>
         You're a second type.`,
-	3: "You're a third type.",
+	3: `<img src = "/assets/img/3rdeyes.png"></img>
+        You're a third type.`,
 	4: "You're a fourth type.",
 	5: "You're a fifth type.",
 	6: "You're a sixth type.",
@@ -73,15 +74,15 @@ function showResults(){
     const answerContainer = answerContainers[questionNumber];
     const selector = `input[name=question${questionNumber}]:checked`;
     const userAnswer = currentQuestion.answerMap[(answerContainer.querySelector(selector) || {}).value];
-    resultsContainer.innerHTML = userAnswer
-    
+
     scoreDict[userAnswer] = scoreDict[userAnswer]++;
   });
   
   let max_answer = getMaxValueKey(scoreDict);
   
   let answerString = ansDict[max_answer];
-  resultsContainer.innerHTML = answerString;
+  // resultsContainer.innerHTML = answerString;
+  resultsContainer.innerHTML = userAnswer
 }
 
 const quizContainer = document.getElementById('quiz');
