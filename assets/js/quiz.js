@@ -89,6 +89,13 @@ function showResults(){
     scoreDict[answerMapped] = scoreDict[answerMapped] + 1;
   });
   
+  let charCount = 0
+  for (let 1 = 0; i < answerContainer.length; i++) {
+      charCount += answerContainer[i].length
+  
+  currentAnswers = document.getElementById('.answers')
+  currentAnswers.style.height = charCount
+  
   let max_answer = getMaxValueKey(scoreDict);
   
   let answerString = ansDict[max_answer];
