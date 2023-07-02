@@ -1,5 +1,6 @@
 // Adapted from https://www.sitepoint.com/simple-javascript-quiz/ - WIP
 //TODO: Style radio buttons, buttons on click.
+//TODO: Unspaghetti.
 
 //https://michaelmovsesov.com/articles/get-key-with-highest-value-from-javascript-object
 function getMaxValueKey(obj){
@@ -35,9 +36,9 @@ function buildQuiz(){
 
       output.push(
        `<div class="slide">
-    <div class="question"> ${currentQuestion.question} </div>
-    <div class="answers"> ${answers.join("")} </div>
-  </div>`
+        <div class="question"> ${currentQuestion.question} </div>
+        <div class="answers"> ${answers.join("")} </div>
+        </div>`
       );
     }
   );
@@ -92,7 +93,7 @@ function showResults(){
         charCount += answerLength;
     }
   
-    currentAnswers = document.getElementById('.answers');
+    currentAnswers = answerContainer.document.getElementById('.answers');
     currentAnswers.style.height = charCount;
     });
   
