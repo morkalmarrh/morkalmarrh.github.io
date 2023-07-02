@@ -47,7 +47,7 @@ function showResults(){
   const answerContainers = quizContainer.querySelectorAll('.answers');
   // keep track of user's answers
   let scoreDict = {
-    1: 2,
+    1: 0,
     2: 0,
 	3: 0,
 	4: 0,
@@ -73,6 +73,7 @@ function showResults(){
     const answerContainer = answerContainers[questionNumber];
     const selector = `input[name=question${questionNumber}]:checked`;
     const userAnswer = currentQuestion.answerMap[(answerContainer.querySelector(selector) || {}).value];
+    resultsContainer.innerHTML = userAnswer
     
     scoreDict[userAnswer] = scoreDict[userAnswer]++;
   });
