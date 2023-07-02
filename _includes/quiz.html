@@ -1,77 +1,9 @@
-<html>
-<head>
-<style>
-/* QUIZ  */
-.question {
-    text-align: center;
-    padding: 10px;
-    font-size: 120%;
-    margin-bottom: 10px;
-}
-
-.answers {
-   text-align: left;
-   padding: 10px;
-   margin-left: 20px;
-   display: inline-block;
-   margin-bottom: 20px;
-}
-
-.answer label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.button {
-	font-family: "Helvetica Neue";
-	font-size: 20px;
-	background-color: site.navbar-border-col;
-	border: 1px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
-}
-
-.button:hover {
-	background-color: site.hover-col;
-}
-
-.slide {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.active-slide {
-  opacity: 1;
-  z-index: 2;
-}
-
-.quiz-container {
-  position: relative;
-  /* height: 200px; */
-  margin-top: 40px;
-}
-
-.linked-section {
-  padding-top: 3.75rem;
-  margin-top: -1.5625rem;
-}
-</style>
-</head>
-<body>
-
 <div class="quiz-container">
   <div id="quiz"></div>
 </div>
 <button id="previous">Previous Question</button>
 <button id="next">Next Question</button>
-<button id="submit", class ="button">Submit Quiz</button>
+<button id="submit">Submit Quiz</button>
 <div id="results"></div>
 
 
