@@ -76,7 +76,7 @@ function showResults(){
     const userAnswer = (answerContainer.querySelector(selector) || {}).value;
     answerMapped = currentQuestion.answerMap[userAnswer]
 
-    scoreDict[answerMapped] = scoreDict[answerMapped]++;
+    scoreDict[answerMapped] = scoreDict[answerMapped] + 1;
   });
   
   let max_answer = getMaxValueKey(scoreDict);
