@@ -89,8 +89,8 @@ function showResults(){
     scoreDict[answerMapped] = scoreDict[answerMapped] + 1;
   });
   
-  let charCount = 0
-  for (let 1 = 0; i < answerContainer.length; i++) {
+  let charCount = 0;
+  for (let 1 = 1; i < answerContainer.length; i++) {
       charCount += answerContainer[i].length;
   }
   
