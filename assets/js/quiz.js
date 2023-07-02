@@ -82,7 +82,7 @@ function showResults(){
   let max_answer = getMaxValueKey(scoreDict);
   
   let answerString = ansDict[max_answer];
-  resultsContainer.innerHTML = answerMapped;
+  resultsContainer.innerHTML = scoreDict;
 }
 
 const quizContainer = document.getElementById('quiz');
