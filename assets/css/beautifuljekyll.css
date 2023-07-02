@@ -1177,6 +1177,7 @@ pre {
 
 .answers {
    text-align: left;
+   margin-bottom: 30px;
    margin-left: 20px;
    height: 300px;
    display: inline-block;
@@ -1192,15 +1193,13 @@ pre {
     display: block;
 	font-family: Helvetica;
 	font-size: 20px;
-    border: 2px;
+    border: 2px solid #008AFF;
     color: #FFF;
 	border-radius: 0px;
 	cursor: pointer;
     box-shadow: 0;
     background: 0;
     z-index: 3;
-    border-color: {{ site.hover-col | default: "#008AFF" }};
-    margin-bottom: 80px;
 }
 
 .quiz-button:hover {
