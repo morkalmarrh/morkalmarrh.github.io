@@ -46,6 +46,8 @@ function buildQuiz(){
   quizContainer.innerHTML = output.join('');
 }
 
+const quizContainer = document.getElementById('quiz');
+
 function showResults(){
   // gather answer containers from our quiz
   const answerContainers = quizContainer.querySelectorAll('.answers');
@@ -93,8 +95,7 @@ function showResults(){
         charCount += answerLength;
     }
   
-    currentAnswers = answerContainer.document.getElementById('.answers');
-    currentAnswers.style.height = charCount;
+    quizContainer.style.height = charCount;
     });
   
   let max_answer = getMaxValueKey(scoreDict);
@@ -132,7 +133,6 @@ function showPreviousSlide() {
   showSlide(currentSlide - 1);
 }
 
-const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 
