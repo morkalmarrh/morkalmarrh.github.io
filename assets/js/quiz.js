@@ -91,7 +91,8 @@ function showResults(){
   
   let charCount = 0
   for (let 1 = 0; i < answerContainer.length; i++) {
-      charCount += answerContainer[i].length
+      charCount += answerContainer[i].length;
+  }
   
   currentAnswers = document.getElementById('.answers')
   currentAnswers.style.height = charCount
