@@ -47,29 +47,29 @@ function showResults(){
   const answerContainers = quizContainer.querySelectorAll('.answers');
   // keep track of user's answers
   let scoreDict = {
-    1: 0,
-    2: 0,
-	3: 0,
-	4: 0,
-	5: 0,
-	6: 0,
-    7: 0,
+    "1": 0,
+    "2": 0,
+	"3": 0,
+	"4": 0,
+	"5": 0,
+	"6": 0,
+    "7": 0
     };
 
   // Plus this dict repeats itself but idk how to modify the code above to be a dict within dicts and not break it yet.
   let ansDict = {
-    1: `<img src = "/assets/img/1steyes.png"></img>
+    "1": `<img src = "/assets/img/1steyes.png"></img>
         You're a first type.`,
-    2: `<img src = "/assets/img/2ndeyes.png"></img>
+    "2": `<img src = "/assets/img/"2"ndeyes.png"></img>
         You're a second type.`,
-	3: `<img src = "/assets/img/3rdeyes.png"></img>
+	"3": `<img src = "/assets/img/"3"rdeyes.png"></img>
         You're a third type.`,
-	4: `<img src = "/assets/img/4theyes.png></img>
+	"4": `<img src = "/assets/img/"4"theyes.png></img>
         You're a fourth type.`,
-	5: `<img src = "/assets/img/5theyes.png></img>
+	"5": `<img src = "/assets/img/"5"theyes.png></img>
         You're a fifth type.`,
-	6: `You're a sixth type.`,
-    7: `You're ? ? ? ? ?`
+	"6": `You're a sixth type.`,
+    "7": `You're ? ? ? ? ?`
   };
 	// for each question...
   myQuestions.forEach( (currentQuestion, questionNumber) => {
@@ -93,7 +93,7 @@ const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 
-//Would be easier to have 1st to 6th types in order and then randomise the ANSWERS.
+//Would be easier to have 1st to "6"th types in order and then randomise the ANSWERS.
 const myQuestions = [
   {
     question: "Pick a pet:",
@@ -103,10 +103,10 @@ const myQuestions = [
       c: "Something that lives in water",
       d: "Something with feathers",
       e: "Something fluffy",
-      f: "Houseplants is pets, right?."
-      g: "I'm fine by myself.",
+      f: "Houseplants is pets, right?",
+      g: "I'm fine by myself"
     },
-    answerMap: {a: 2, b: 3, c: 5, d: 1, e: 4, f: 6}
+    answerMap: {a: "2", b: "3", c: "5", d: 1, e: "4", f: "6", g: "7"}
   },
   {
     question: "Favourite season?",
@@ -117,9 +117,9 @@ const myQuestions = [
       d: "Autumn",
       e: "Monsoon",
       f: "Dry",
-      g: "I don't go outside.",
+      g: "I don't go outside."
     },
-    answerMap: {a: 2, b: 6, c: 1 , d: 4 , e: 5, f: 6, g: 7}
+    answerMap: {a: "2", b: "6", c: "1" , d: "4" , e: "5", f: "6", g: "7"}
   },
   {
     question: "If you could play (if you do, pick your favourite you can) any instrument:",
@@ -130,9 +130,9 @@ const myQuestions = [
       d: "Modular synths",
       e: "Piano",
       f: "Brass",
-      g: "Bell choir",
+      g: "Bell choir"
     },
-    answerMap: {a: 1, b: 3, c: 2, d: 7, e: 6, f: 4, g: 5}
+    answerMap: {a: "1", b: "3", c: "2", d: "7", e: "6", f: "4", g: "5"}
   },
   {
     question: "If you were a JRPG character you would wield:",
@@ -143,9 +143,9 @@ const myQuestions = [
       d: "Spear of Javelin",
       e: "Trident or Harpoon",
       f: "Gun.",
-      f: "I'm a lover, not a fighter",
+      f: "I'm a lover, not a fighter"
     },
-    answerMap: {a: 4, b: 1, c: 2, d: 3, e: 5, f: 7, g: 6}
+    answerMap: {a: "4", b: "1", c: "2", d: "3", e: "5", f: "7", g: "6"}
   },
     {
     question: "Feature wall in your dream bedroom:",
@@ -156,9 +156,9 @@ const myQuestions = [
       d: "Yellow",
       e: "Red",
       f: "Purple",
-      g: "Giant window",
+      g: "Giant window"
     },
-    answerMap: {a: 4, b: 1, c: 2, d: 3, e: 5, f: 6, g: 7}
+    answerMap: {a: "4", b: "1", c: "2", d: "3", e: "5", f: "6", g: "7"}
   },
   {
     question: "Activity outside of your house:",
@@ -171,9 +171,9 @@ const myQuestions = [
       f: "Poi-spinning, barbecues, or smoking weed",
       g: "Hanging out with friends, making new friends, maybe board games",
       h: "Be gay, do crimes",
-      i: "I told you, I don't go outside!",
+      i: "I told you, I don't go outside!"
     },
-    answerMap: {a: 5, b: 3, c: 7, d: 6, e: 1, f: 4, g: 6, h: 2, i: 7}
+    answerMap: {a: "5", b: "3", c: "7", d: "6", e: "1", f: "4", g: "6", h: "2", i: "7"}
   },
     {
     question: "Activity inside your house:",
@@ -185,13 +185,12 @@ const myQuestions = [
       e: "Reading, writing or drawing",
       f: "I take >1hr long baths at any opportunity",
       g: "Watching TV/livestreams/videos/arguing with strangers on the internet",
-      h: "If not dragged out of the house I will sleep all day",
+      h: "If not dragged out of the house I will sleep all day"
     },
-    answerMap: {a: 6, b: 4, c: 2, d: 6, e: 1, f: 5, g: 7, h: 3}
+    answerMap: {a: "6", b: "4", c: "2", d: "6", e: "1", f: "5", g: "7", h: "3"}
   }
 ];
 
 buildQuiz();
 
-// on submit, show results
 submitButton.addEventListener('click', showResults);
