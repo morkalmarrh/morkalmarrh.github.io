@@ -1,5 +1,5 @@
 ---
-layoiut: base
+layout: base
 ---
 
 {% include quiz.html %}

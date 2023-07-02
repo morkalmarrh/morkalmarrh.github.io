@@ -97,7 +97,7 @@ border-width: 0.25rem;
     margin-bottom: 10px;
 }
 
-.button {
+.quiz {
 	font-family: "Helvetica Neue";
 	font-size: 20px;
 	border: 1px;
@@ -108,7 +108,7 @@ border-width: 0.25rem;
     background-color: {{ site.link-col | default: "#008AFF" }};
 }
 
-.button:hover {
+.quiz:hover {
     background-color: {{ site.hover-col | default: "#008AFF"}};
 }
 
