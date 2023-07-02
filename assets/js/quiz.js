@@ -2,6 +2,7 @@
 //TODO: Style, pagination.
 
 //https://michaelmovsesov.com/articles/get-key-with-highest-value-from-javascript-object
+(function(){
 function getMaxValueKey(obj){
   return Object.keys(obj).reduce((a, b) => obj[a] > obj[b] ? a : b);
 }
@@ -125,6 +126,7 @@ function showPreviousSlide() {
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+
 //Would be easier to have 1st to types in order and then randomise the ANSWERS.
 const myQuestions = [
   {
@@ -223,17 +225,18 @@ const myQuestions = [
   }
 ];
 
+buildQuiz();
+
 //Pagination
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
-buildQuiz();
-
 showSlide(currentSlide);
 
 // Event listeners
 previousButton.addEventListener('click', showPreviousSlide);
-nextButton.addEventListener('click', showNextSlide);
-submitButton.addEventListener('click', showResults);
+nextButton.addEventListener("click", showNextSlide);
+submitButton.addEventListener("click", showResults);
+})();
