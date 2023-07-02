@@ -1163,12 +1163,15 @@ pre {
 .quiz-container {
   position: relative;
   height: 300px;
+  margin: auto;
+  width: 50%;
 }
 
 .answers {
    text-align: left;
    margin-left: 20px;
    height: 300px;
+   z-index: 1;
 }
 
 .quiz-button {
