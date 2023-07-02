@@ -28,25 +28,19 @@ function buildQuiz(){
           </label>`
         );
       }
-      // add this question and its answers to the output
-	  // Notice we’re using template literals, which are strings but more powerful. We’ll make use of the following features:
-      //multi-line capabilities
-      //no more having to escape quotes within quotes because template literals use backticks instead
-     //string interpolation, so you can embed JavaScript expressions right into your strings like this: ${code_goes_here}.
-
       output.push(
        `<div class="slide">
         <div class="question"> ${currentQuestion.question} </div>
         <div class="answers"> ${answers.join("")} </div>
         </div>`
       );
+      let answersHeightSet = document.getElementById('answers').height;
+      quizContainer.style.height = answersHeight;
     }
   );
   // finally combine our output list into one string of HTML and put it on the page
   quizContainer.innerHTML = output.join('');
 }
-
-const quizContainer = document.getElementById('quiz');
 
 function showResults(){
   // gather answer containers from our quiz
@@ -87,15 +81,7 @@ function showResults(){
     const selector = `input[name=question${questionNumber}]:checked`;
     const userAnswer = (answerContainer.querySelector(selector) || {}).value;
     answerMapped = currentQuestion.answerMap[userAnswer];
-
     scoreDict[answerMapped] = scoreDict[answerMapped] + 1;
-    let charCount = 0;
-    for (let i = 1, len = answerContainer.length; i < len; i++) {
-        answerLength = answerContainer[i];
-        charCount += answerLength;
-    }
-  
-    quizContainer.style.height = charCount;
     });
   
   let max_answer = getMaxValueKey(scoreDict);
@@ -133,6 +119,7 @@ function showPreviousSlide() {
   showSlide(currentSlide - 1);
 }
 
+const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 
