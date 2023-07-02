@@ -1206,3 +1206,7 @@ pre {
 .quiz-button:hover {
     background-color: {{ site.hover-col | default: "#008AFF" }};
 }
+
+.centre {
+  text-align: center;
+}
