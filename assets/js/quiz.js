@@ -73,16 +73,16 @@ function showResults(){
     // find selected answer
     const answerContainer = answerContainers[questionNumber];
     const selector = `input[name=question${questionNumber}]:checked`;
-    const userAnswer = currentQuestion.answerMap[(answerContainer.querySelector(selector) || {}).value];
+    const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+    answerMapped = currentQuestion.answerMap[userAnswer]
 
-    scoreDict[userAnswer] = scoreDict[userAnswer]++;
+    scoreDict[answerMapped] = scoreDict[answerMapped]++;
   });
   
   let max_answer = getMaxValueKey(scoreDict);
   
   let answerString = ansDict[max_answer];
-  // resultsContainer.innerHTML = answerString;
-  resultsContainer.innerHTML = userAnswer
+  resultsContainer.innerHTML = answerString;
 }
 
 const quizContainer = document.getElementById('quiz');
