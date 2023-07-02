@@ -1143,7 +1143,6 @@ pre {
 
 /* QUIZ  */
 .question {
-    text-align: center;
     font-size: 120%;
     margin-bottom: 10px;
     margin-top: 150px;
@@ -1164,6 +1163,7 @@ pre {
   position: relative;
   height: 300px;
   text-align: center;
+  margin: auto;
   width: 50%;
 }
 
@@ -1171,6 +1171,12 @@ pre {
    text-align: left;
    margin-left: 20px;
    height: 300px;
+   display: inline-block;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
 }
 
 .quiz-button {
