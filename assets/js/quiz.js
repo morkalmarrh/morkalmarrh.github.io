@@ -1,5 +1,5 @@
 // Adapted from https://www.sitepoint.com/simple-javascript-quiz/ - WIP
-//TODO: Style, pagination.
+//TODO: Style radio buttons, buttons on click.
 
 //https://michaelmovsesov.com/articles/get-key-with-highest-value-from-javascript-object
 (function(){
