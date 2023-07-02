@@ -1200,6 +1200,7 @@ pre {
 	cursor: pointer;
     box-shadow: 0;
     background: 0;
+    z-index: 3;
 }
 
 .quiz-button:hover {
