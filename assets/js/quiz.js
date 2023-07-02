@@ -34,7 +34,7 @@ function buildQuiz(){
 
       output.push(
         `<div class="question"> ${currentQuestion.question} </div>
-        <div class="answers"> ${answers.join(<BR/>)} </div>`
+        <div class="answers"> ${answers.join('<BR/>')} </div>`
       );
     }
   );
@@ -68,7 +68,7 @@ function showResults(){
         You're a fourth type.`,
 	5: `<img src = "/assets/img/5theyes.png></img>
         You're a fifth type.`,
-	6:  `You're a sixth type.`,
+	6: `You're a sixth type.`,
     7: `You're ? ? ? ? ?`
   };
 	// for each question...
