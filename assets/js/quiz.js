@@ -117,7 +117,7 @@ const myQuestions = [
       d: "Autumn",
       e: "Monsoon",
       f: "Dry",
-      g: "I don't go outside."
+      g: "I don't go outside.",
     },
     answerMap: {a: 2, b: 6, c: 1 , d: 4 , e: 5, f: 6, g: 7}
   },
@@ -130,7 +130,7 @@ const myQuestions = [
       d: "Modular synths",
       e: "Piano",
       f: "Brass",
-      g: "Bell choir"
+      g: "Bell choir",
     },
     answerMap: {a: 1, b: 3, c: 2, d: 7, e: 6, f: 4, g: 5}
   },
@@ -142,7 +142,7 @@ const myQuestions = [
       c: "Knife or Dagger",
       d: "Spear of Javelin",
       e: "Trident or Harpoon",
-      f: "Gun."
+      f: "Gun.",
       f: "I'm a lover, not a fighter",
     },
     answerMap: {a: 4, b: 1, c: 2, d: 3, e: 5, f: 7, g: 6}
@@ -156,7 +156,7 @@ const myQuestions = [
       d: "Yellow",
       e: "Red",
       f: "Purple",
-      g: "Giant window"
+      g: "Giant window",
     },
     answerMap: {a: 4, b: 1, c: 2, d: 3, e: 5, f: 6, g: 7}
   },
@@ -171,7 +171,7 @@ const myQuestions = [
       f: "Poi-spinning, barbecues, or smoking weed",
       g: "Hanging out with friends, making new friends, maybe board games",
       h: "Be gay, do crimes",
-      i: "I told you, I don't go outside!"
+      i: "I told you, I don't go outside!",
     },
     answerMap: {a: 5, b: 3, c: 7, d: 6, e: 1, f: 4, g: 6, h: 2, i: 7}
   },
@@ -185,7 +185,7 @@ const myQuestions = [
       e: "Reading, writing or drawing",
       f: "I take >1hr long baths at any opportunity",
       g: "Watching TV/livestreams/videos/arguing with strangers on the internet",
-      h: "If not dragged out of the house I will sleep all day"
+      h: "If not dragged out of the house I will sleep all day",
     },
     answerMap: {a: 6, b: 4, c: 2, d: 6, e: 1, f: 5, g: 7, h: 3}
   }
