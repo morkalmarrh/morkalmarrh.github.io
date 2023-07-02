@@ -2,7 +2,6 @@
 //TODO: Style radio buttons, buttons on click.
 
 //https://michaelmovsesov.com/articles/get-key-with-highest-value-from-javascript-object
-(function(){
 function getMaxValueKey(obj){
   return Object.keys(obj).reduce((a, b) => obj[a] > obj[b] ? a : b);
 }
@@ -87,15 +86,15 @@ function showResults(){
     answerMapped = currentQuestion.answerMap[userAnswer];
 
     scoreDict[answerMapped] = scoreDict[answerMapped] + 1;
-  });
+    let charCount = 0;
+    for (let i = 1, len = answerContainer.length; i < len; i++) {
+        answerLength = answerContainer[i];
+        charCount += answerLength;
+    }
   
-  let charCount = 0;
-  for (let i = 1; i < answerContainer.length; i++) {
-      charCount += answerContainer[i].length;
-  }
-  
-  currentAnswers = document.getElementById('.answers');
-  currentAnswers.style.height = charCount;
+    currentAnswers = document.getElementById('.answers');
+    currentAnswers.style.height = charCount;
+    });
   
   let max_answer = getMaxValueKey(scoreDict);
   
@@ -248,4 +247,3 @@ showSlide(currentSlide);
 previousButton.addEventListener('click', showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
 submitButton.addEventListener("click", showResults);
-})();
