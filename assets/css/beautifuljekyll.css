@@ -1170,7 +1170,7 @@ pre {
 
 .quiz-container {
   position: relative;
-  height: 450px;
+  height: 510px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -1194,7 +1194,7 @@ pre {
 	font-size: 20px;
     border: 2px solid #a2e902;
     color: #FFF;
-	border-radius: 3px;
+	border-radius: 2px;
 	cursor: pointer;
     box-shadow: 0;
     background: 0;
@@ -1207,5 +1207,5 @@ pre {
 .centre {
   margin-top: 20px;
   text-align: center;
-  z-index: 2;
+  z-index: 3;
 }
