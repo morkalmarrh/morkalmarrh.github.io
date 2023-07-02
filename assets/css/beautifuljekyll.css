@@ -1146,7 +1146,7 @@ pre {
     text-align: center;
     font-size: 120%;
     margin-bottom: 10px;
-    margin-top: 60px;
+    margin-top: 150px;
 }
 
 .slide {
@@ -1163,7 +1163,7 @@ pre {
 .quiz-container {
   position: relative;
   height: 300px;
-  margin: auto;
+  text-align: center;
   width: 50%;
 }
 
@@ -1171,11 +1171,12 @@ pre {
    text-align: left;
    margin-left: 20px;
    height: 300px;
-   z-index: 1;
 }
 
 .quiz-button {
     position: relative;
+    margin: auto;
+    width: 30px;
     display: block;
 	font-family: "Helvetica Neue";
 	font-size: 20px;
