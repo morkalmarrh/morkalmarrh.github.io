@@ -94,8 +94,11 @@ function showSlide(n) {
   currentSlide = n;
   let slideDiv = slides[n];
   let slideAnswers = slideDiv.querySelectorAll('.answers');
-  let currentAnswer = slideAnswers[0];
-  quizContainer.style.height = currentAnswer.height;
+  let charCount = 0;
+  Object.entries(slideAnswers).forEach(([k,v]) => {
+      charCount += v.length;
+      })
+  quizContainer.style.height = charCount;
   if(currentSlide === 0){
     previousButton.style.display = 'none';
     nextButton.style.display = 'inline-block';
