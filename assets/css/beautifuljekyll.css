@@ -1142,6 +1142,10 @@ pre {
 }
 
 /* QUIZ  */
+.quiz {
+    margin-bottom: 30px;
+}
+
 .question {
     font-size: 120%;
     margin-bottom: 10px;
@@ -1156,7 +1160,7 @@ pre {
   z-index: 1;
   opacity: 0;
   transition: opacity 0.5s;
-  margin-bottom: 30px;
+  margin-bottom: 150px;
 }
 
 .active-slide {
@@ -1166,7 +1170,7 @@ pre {
 
 .quiz-container {
   position: relative;
-  height: 300px;
+  height: 400px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -1196,6 +1200,7 @@ pre {
     background: 0;
     z-index: 3;
     border-color: {{ site.hover-col | default: "#008AFF" }};
+    margin-bottom: 80px;
 }
 
 .quiz-button:hover {
