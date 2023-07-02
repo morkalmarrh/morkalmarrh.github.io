@@ -1146,7 +1146,7 @@ pre {
     text-align: center;
     font-size: 120%;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .slide {
@@ -1169,4 +1169,15 @@ pre {
    text-align: left;
    margin-left: 20px;
    height: 300px;
+}
+
+.quiz-button {
+    display: block;
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	border: 1px;
+	border-radius: 3px;
+	cursor: pointer;
+    background-color: {{ site.link-col | default: "#008AFF" }};
+    z-index: 3;
 }
