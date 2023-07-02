@@ -1163,7 +1163,6 @@ pre {
   opacity: 0;
   transition: opacity 0.5s;
   margin-bottom: 150px;
-  overflow: scroll;
 }
 
 .active-slide {
@@ -1185,7 +1184,6 @@ pre {
    margin-bottom: 30px;
    margin-left: 20px;
    display: inline-block;
-   overflow: scroll;
 }
 
 .answers label {
