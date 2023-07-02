@@ -1147,7 +1147,8 @@ pre {
 }
 
 .question {
-    font-size: 120%;
+    font-size: 150%;
+    color: #FFFFFF;
     margin-bottom: 10px;
     margin-top: 150px;
     background: {{ site.link-col | default: "#FFFFFF" }};
