@@ -47,22 +47,24 @@ function showResults(){
   const answerContainers = quizContainer.querySelectorAll('.answers');
   // keep track of user's answers
   let scoreDict = {
-    "1st": 0,
-    "2nd": 0,
-	"3rd": 0,
-	"4th": 0,
-	"5th": 0,
-	"6th": 0,
+    1: 0,
+    2: 0,
+	3: 0,
+	4: 0,
+	5: 0,
+	6: 0,
     };
   // Must be a way to just return a particular object to place there, including images.
   // Plus this dict repeats itself but idk how to modify the code above to be a dict within dicts and not break it yet.
   let ansDict = {
-    "1st": "You're a first type.",
-    "2nd": "You're a second type.",
-	"3rd": "You're a third type.",
-	"4th": "You're a fourth type.",
-	"5th": "You're a fifth type.",
-	"6th": "You're a sixth type.",
+    1: `<img src = "/assets/img/1steyes.png"></img>
+        You're a first type.`,
+    2: `<img src = "/assets/img/2ndeyes.png"></img>
+        You're a second type.`,
+	3: "You're a third type.",
+	4: "You're a fourth type.",
+	5: "You're a fifth type.",
+	6: "You're a sixth type.",
   };
 	// for each question...
   myQuestions.forEach( (currentQuestion, questionNumber) => {
@@ -87,35 +89,40 @@ const submitButton = document.getElementById('submit');
 //Would be easier to have 1st to 6th types in order and then randomise the ANSWERS.
 const myQuestions = [
   {
-    question: "Pick a pet",
+    question: "Pick a pet:",
     answers: {
-      a: "Snake",
-      b: "Spider",
-      c: "Eel",
-      d: "Falcon",
-      e: "Horse",
-      f: "Houseplant",
+      a: "Something scaly",
+      b: "Something with lots of legs",
+      c: "Something that lives in water",
+      d: "Something with feathers",
+      e: "Something fluffy",
+      f: "Houseplant.",
     },
-    answerMap: {a: "1st", b: "2nd"}
+    answerMap: {a: 2, b: 3, c: 5, d: 1, e: 4, f: 6}
   },
   {
-    question: "Which one of these is a JavaScript package manager?",
+    question: "Favourite season?",
     answers: {
-      a: "Node.js",
-      b: "TypeScript",
-      c: "npm"
+      a: "Winter",
+      b: "Spring",
+      c: "Summer"
+      d: "Autumn"
+      e: "Monsoon"
+      f: "Dry"
     },
-    answerMap: {a: "1st", b: "2nd"}
+    answerMap: {a: 2, b: 6, c: 1 , d: 4 , e: 5, f: 6}
   },
   {
-    question: "Which tool can you use to ensure code quality?",
+    question: "If you could play any instrument:",
     answers: {
-      a: "Angular",
-      b: "jQuery",
-      c: "RequireJS",
-      d: "ESLint"
+      a: "Woodwind",
+      b: "Percussion",
+      c: "Strings",
+      d: "Bell choir"
+      e: "Piano"
+      f: "Brass"
     },
-    answerMap: {a: "1st", b: "2nd"}
+    answerMap: {a: 1, b: 3, c: 2, d: 5, e: 6, f: 4}
   }
 ];
 
