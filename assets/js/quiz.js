@@ -60,13 +60,13 @@ function showResults(){
   let ansDict = {
     "1": `<img src = "/assets/img/1steyes.png"></img>
         You're a first type.`,
-    "2": `<img src = "/assets/img/"2"ndeyes.png"></img>
+    "2": `<img src = "/assets/img/2ndeyes.png"></img>
         You're a second type.`,
-	"3": `<img src = "/assets/img/"3"rdeyes.png"></img>
+	"3": `<img src = "/assets/img/3rdeyes.png"></img>
         You're a third type.`,
-	"4": `<img src = "/assets/img/"4"theyes.png></img>
+	"4": `<img src = "/assets/img/4theyes.png></img>
         You're a fourth type.`,
-	"5": `<img src = "/assets/img/"5"theyes.png></img>
+	"5": `<img src = "/assets/img/"5theyes.png></img>
         You're a fifth type.`,
 	"6": `You're a sixth type.`,
     "7": `You're ? ? ? ? ?`
@@ -106,7 +106,7 @@ const myQuestions = [
       f: "Houseplants is pets, right?",
       g: "I'm fine by myself"
     },
-    answerMap: {a: "2", b: "3", c: "5", d: 1, e: "4", f: "6", g: "7"}
+    answerMap: {a: "2", b: "3", c: "5", d: "1", e: "4", f: "6", g: "7"}
   },
   {
     question: "Favourite season?",
