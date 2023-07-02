@@ -118,6 +118,36 @@ img[src$="#circ"] {
    object-fit: cover;
 }
 
+/* QUIZ  */
+.question {
+    text-indent: 30%;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answer label{
+    /* ngl idk what this means */
+    display: block;
+}
+
+#submit{
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	background-color: #279;
+	color: site.link-col;
+	border: 1px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#submit:hover{
+	background-color: site.hover-col;
+}
+
 .linked-section {
   padding-top: 3.75rem;
   margin-top: -1.5625rem;

@@ -1,4 +1,5 @@
 // Adapted from https://www.sitepoint.com/simple-javascript-quiz/ - WIP
+//TODO: Style, pagination.
 
 //https://michaelmovsesov.com/articles/get-key-with-highest-value-from-javascript-object
 function getMaxValueKey(obj){
@@ -142,7 +143,7 @@ const myQuestions = [
       a: "Scythe or Sickle",
       b: "Bow and Arrows",
       c: "Knife or Dagger",
-      d: "Spear of Javelin",
+      d: "Spear or Javelin",
       e: "Trident or Harpoon",
       f: "Gun.",
       g: "I'm a lover, not a fighter"
@@ -189,7 +190,7 @@ const myQuestions = [
       g: "Watching TV/livestreams/videos/arguing with strangers on the internet",
       h: "If not dragged out of the house I will sleep all day"
     },
-    answerMap: {a: "6", b: "4", c: "2", d: "6", e: "1", f: "5", g: "7", h: "3"}
+    answerMap: {a: "6", b: "4", c: "2", d: "1", e: "6", f: "5", g: "7", h: "3"}
   }
 ];
 
