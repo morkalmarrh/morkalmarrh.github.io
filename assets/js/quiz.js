@@ -90,7 +90,7 @@ function showResults(){
   });
   
   let charCount = 0;
-  for (let 1 = 1; i < answerContainer.length; i++) {
+  for (let i = 1; i < answerContainer.length; i++) {
       charCount += answerContainer[i].length;
   }
   
