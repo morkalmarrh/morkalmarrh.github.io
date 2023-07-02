@@ -1162,9 +1162,11 @@ pre {
 
 .quiz-container {
   position: relative;
+  height: 300px;
 }
 
 .answers {
    text-align: left;
    margin-left: 20px;
+   height: 300px;
 }
