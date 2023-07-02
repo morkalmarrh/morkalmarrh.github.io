@@ -34,7 +34,7 @@ function buildQuiz(){
 
       output.push(
         `<div class="question"> ${currentQuestion.question} </div>
-        <div class="answers"> ${answers.join('')} </div>`
+        <div class="answers"> ${answers.join('\n')} </div>`
       );
     }
   );
@@ -53,6 +53,7 @@ function showResults(){
 	4: 0,
 	5: 0,
 	6: 0,
+    7: 0,
     };
 
   // Plus this dict repeats itself but idk how to modify the code above to be a dict within dicts and not break it yet.
@@ -63,9 +64,12 @@ function showResults(){
         You're a second type.`,
 	3: `<img src = "/assets/img/3rdeyes.png"></img>
         You're a third type.`,
-	4: "You're a fourth type.",
-	5: "You're a fifth type.",
-	6: "You're a sixth type.",
+	4: `<img src = "/assets/img/4theyes.png></img>
+        You're a fourth type.`,
+	5: `<img src = "/assets/img/5theyes.png></img>
+        You're a fifth type.`,
+	6:  `You're a sixth type.`,
+    7: `You're ? ? ? ? ?`
   };
 	// for each question...
   myQuestions.forEach( (currentQuestion, questionNumber) => {
@@ -82,7 +86,7 @@ function showResults(){
   let max_answer = getMaxValueKey(scoreDict);
   
   let answerString = ansDict[max_answer];
-  resultsContainer.innerHTML = scoreDict[1];
+  resultsContainer.innerHTML = answerString;
 }
 
 const quizContainer = document.getElementById('quiz');
@@ -99,7 +103,8 @@ const myQuestions = [
       c: "Something that lives in water",
       d: "Something with feathers",
       e: "Something fluffy",
-      f: "Houseplant.",
+      f: "Houseplants is pets, right?."
+      g: "I'm fine by myself.",
     },
     answerMap: {a: 2, b: 3, c: 5, d: 1, e: 4, f: 6}
   },
@@ -112,20 +117,77 @@ const myQuestions = [
       d: "Autumn",
       e: "Monsoon",
       f: "Dry",
+      g: "I don't go outside."
     },
-    answerMap: {a: 2, b: 6, c: 1 , d: 4 , e: 5, f: 6}
+    answerMap: {a: 2, b: 6, c: 1 , d: 4 , e: 5, f: 6, g: 7}
   },
   {
-    question: "If you could play any instrument:",
+    question: "If you could play (if you do, pick your favourite you can) any instrument:",
     answers: {
       a: "Woodwind",
       b: "Percussion",
       c: "Strings",
-      d: "Bell choir",
+      d: "Modular synths",
       e: "Piano",
       f: "Brass",
+      g: "Bell choir"
     },
-    answerMap: {a: 1, b: 3, c: 2, d: 5, e: 6, f: 4}
+    answerMap: {a: 1, b: 3, c: 2, d: 7, e: 6, f: 4, g: 5}
+  },
+  {
+    question: "If you were a JRPG character you would wield:",
+    answers: {
+      a: "Scythe or Sickle",
+      b: "Bow and Arrows",
+      c: "Knife or Dagger",
+      d: "Spear of Javelin",
+      e: "Trident or Harpoon",
+      f: "Gun."
+      f: "I'm a lover, not a fighter",
+    },
+    answerMap: {a: 4, b: 1, c: 2, d: 3, e: 5, f: 7, g: 6}
+  },
+    {
+    question: "Feature wall in your dream bedroom:",
+    answers: {
+      a: "Blue",
+      b: "Orange",
+      c: "Green",
+      d: "Yellow",
+      e: "Red",
+      f: "Purple",
+      g: "Giant window"
+    },
+    answerMap: {a: 4, b: 1, c: 2, d: 3, e: 5, f: 6, g: 7}
+  },
+  {
+    question: "Activity outside of your house:",
+    answers: {
+      a: "Swimming in the sea, building sandcastles, or fishing",
+      b: "Rock climbing, caving or mountain hiking",
+      c: "Urbex, ghost hunting, or recreational trespassing in 'DO NOT ENTER'-ville",
+      d: "Gardening, walks in the woods, or general grass-touching",
+      e: "Paragliding, kite-flying, or cliff-diving",
+      f: "Poi-spinning, barbecues, or smoking weed",
+      g: "Hanging out with friends, making new friends, maybe board games",
+      h: "Be gay, do crimes",
+      i: "I told you, I don't go outside!"
+    },
+    answerMap: {a: 5, b: 3, c: 7, d: 6, e: 1, f: 4, g: 6, h: 2, i: 7}
+  },
+    {
+    question: "Activity inside your house:",
+    answers: {
+      a: "Dismantling and then re-mantling whatever I can get my hands on",
+      b: "Cooking. This might be cakes, meals, potions or meth",
+      c: "I draw the curtains. Maybe I despair, maybe I vibe",
+      d: "Making music",
+      e: "Reading, writing or drawing",
+      f: "I take >1hr long baths at any opportunity",
+      g: "Watching TV/livestreams/videos/arguing with strangers on the internet",
+      h: "If not dragged out of the house I will sleep all day"
+    },
+    answerMap: {a: 6, b: 4, c: 2, d: 6, e: 1, f: 5, g: 7, h: 3}
   }
 ];
 
