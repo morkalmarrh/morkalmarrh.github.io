@@ -93,7 +93,8 @@ function showSlide(n) {
   slides[n].classList.add('active-slide');
   currentSlide = n;
   let slideDiv = slides[n];
-  let currentAnswer = slideDiv.querySelectorAll('.answers');
+  let slideAnswers = slideDiv.querySelectorAll('.answers');
+  let currentAnswer = slideAnswers[0];
   quizContainer.style.height = currentAnswer.height;
   if(currentSlide === 0){
     previousButton.style.display = 'none';
