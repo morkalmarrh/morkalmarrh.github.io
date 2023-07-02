@@ -33,12 +33,14 @@ function buildQuiz(){
         <div class="answers"> ${answers.join("")} </div>
         </div>`;
       quizContainer.insertAdjacentHTML('beforeend', output);
+      let currentAnswers = quizContainer.querySelectorAll('.answers');
+      let answerHeight = currentAnswers[i].height;
+      quizContainer.style.height = answerHeight;
       i++
     }
   );
   // finally combine our output list into one string of HTML and put it on the page
-  let answersHeightSet = quizContainer.querySelectorAll('.answers')[i].height;
-  quizContainer.style.height = answersHeight;
+  
 }
 
 function showResults(){
