@@ -94,10 +94,6 @@ function showResults(){
   resultsContainer.innerHTML = answerString;
 }
 
-const quizContainer = document.getElementById('quiz');
-const resultsContainer = document.getElementById('results');
-const submitButton = document.getElementById('submit');
-
 function showSlide(n) {
   slides[currentSlide].classList.remove('active-slide');
   slides[n].classList.add('active-slide');
@@ -126,8 +122,10 @@ function showPreviousSlide() {
   showSlide(currentSlide - 1);
 }
 
-
-//Would be easier to have 1st to "6"th types in order and then randomise the ANSWERS.
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+//Would be easier to have 1st to types in order and then randomise the ANSWERS.
 const myQuestions = [
   {
     question: "Pick a pet:",
@@ -225,13 +223,13 @@ const myQuestions = [
   }
 ];
 
-buildQuiz();
-
-//pagination
+//Pagination
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
+
+buildQuiz();
 
 showSlide(currentSlide);
 
