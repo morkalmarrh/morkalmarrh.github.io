@@ -96,6 +96,7 @@ border-width: 0.25rem;
 
 .quiz {
     position: relative;
+    height: 80%;
     display: block;
 	font-family: "Helvetica Neue";
 	font-size: 20px;
@@ -112,7 +113,7 @@ border-width: 0.25rem;
 }
 
 .slide {
-  position: absolute;
+  position: relative;
   left: 0px;
   top: 0px;
   bottom: 20px;
