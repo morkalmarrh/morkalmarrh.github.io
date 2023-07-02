@@ -1183,15 +1183,6 @@ pre {
     margin-bottom: 10px;
 }
 
-.centre-container {
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    z-index: 3;
-}
-
 .quiz-button {
     position: relative;
     display: block;
@@ -1203,6 +1194,7 @@ pre {
 	cursor: pointer;
     box-shadow: 0;
     background: 0;
+    z-index: 3;
     border-color: {{ site.hover-col | default: "#008AFF" }};
 }
 
