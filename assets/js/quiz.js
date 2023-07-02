@@ -105,10 +105,10 @@ const myQuestions = [
     answers: {
       a: "Winter",
       b: "Spring",
-      c: "Summer"
-      d: "Autumn"
-      e: "Monsoon"
-      f: "Dry"
+      c: "Summer",
+      d: "Autumn",
+      e: "Monsoon",
+      f: "Dry",
     },
     answerMap: {a: 2, b: 6, c: 1 , d: 4 , e: 5, f: 6}
   },
@@ -118,9 +118,9 @@ const myQuestions = [
       a: "Woodwind",
       b: "Percussion",
       c: "Strings",
-      d: "Bell choir"
-      e: "Piano"
-      f: "Brass"
+      d: "Bell choir",
+      e: "Piano",
+      f: "Brass",
     },
     answerMap: {a: 1, b: 3, c: 2, d: 5, e: 6, f: 4}
   }
