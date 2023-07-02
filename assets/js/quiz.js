@@ -84,7 +84,7 @@ function showResults(){
     const answerContainer = answerContainers[questionNumber];
     const selector = `input[name=question${questionNumber}]:checked`;
     const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-    answerMapped = currentQuestion.answerMap[userAnswer]
+    answerMapped = currentQuestion.answerMap[userAnswer];
 
     scoreDict[answerMapped] = scoreDict[answerMapped] + 1;
   });
@@ -94,8 +94,8 @@ function showResults(){
       charCount += answerContainer[i].length;
   }
   
-  currentAnswers = document.getElementById('.answers')
-  currentAnswers.style.height = charCount
+  currentAnswers = document.getElementById('.answers');
+  currentAnswers.style.height = charCount;
   
   let max_answer = getMaxValueKey(scoreDict);
   
