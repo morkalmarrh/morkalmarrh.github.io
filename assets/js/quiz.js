@@ -101,6 +101,7 @@ function showSlide(n) {
   currentSlide = n;
   if(currentSlide === 0){
     previousButton.style.display = 'none';
+    nextButton.style.display = 'inline-block';
   }
   else{
     previousButton.style.display = 'inline-block';

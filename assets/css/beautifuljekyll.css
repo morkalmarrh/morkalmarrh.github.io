@@ -1167,8 +1167,7 @@ pre {
   position: relative;
   height: 300px;
   text-align: center;
-  margin: auto;
-  width: 50%;
+  margin-bottom: 40px;
 }
 
 .answers {
@@ -1191,7 +1190,6 @@ pre {
 	font-family: "Helvetica Neue";
 	font-size: 20px;
     color: "#FFF"
-	border: 1px;
 	border-radius: 3px;
 	cursor: pointer;
     background-color: {{ site.link-col | default: "#008AFF" }};
@@ -1200,4 +1198,8 @@ pre {
 
 .quiz-button:hover {
     background-color: {{ site.hover-col | default: "#008AFF" }};
+}
+
+#submit {
+    display: inline-block;
 }
