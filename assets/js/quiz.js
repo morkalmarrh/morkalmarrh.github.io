@@ -37,7 +37,7 @@ function buildQuiz(){
     }
   );
   // finally combine our output list into one string of HTML and put it on the page
-  let answersHeightSet = document.querySelectorAll('.answers')[i].height;
+  let answersHeightSet = quizContainer.querySelectorAll('.answers')[i].height;
   quizContainer.style.height = answersHeight;
 }
 
