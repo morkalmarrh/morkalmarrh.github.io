@@ -34,7 +34,7 @@ function buildQuiz(){
         <div class="answers"> ${answers.join("")} </div>
         </div>`
       );
-      let answersHeightSet = document.getElementById('answers').height;
+      let answersHeightSet = document.getElementById('.answers').height;
       quizContainer.style.height = answersHeight;
     }
   );
