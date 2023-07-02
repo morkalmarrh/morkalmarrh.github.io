@@ -38,7 +38,7 @@ function buildQuiz(){
   );
   // finally combine our output list into one string of HTML and put it on the page
   quizContainer.innerHTML = output.join('');
-  let answersHeightSet = document.getElementById('answers').height;
+  let answersHeightSet = document.getElementById('.answers').height;
   quizContainer.style.height = answersHeight;
 }
 
