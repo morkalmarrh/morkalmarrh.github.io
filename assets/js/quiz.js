@@ -65,9 +65,9 @@ function showResults(){
         You're a second type.`,
 	"3": `<img src = "/assets/img/3rdeyes.png"></img>
         You're a third type.`,
-	"4": `<img src = "/assets/img/4theyes.png></img>
+	"4": `<img src = "/assets/img/4theyes.png"></img>
         You're a fourth type.`,
-	"5": `<img src = "/assets/img/5theyes.png></img>
+	"5": `<img src = "/assets/img/5theyes.png"></img>
         You're a fifth type.`,
 	"6": `You're a sixth type.`,
     "7": `You're ? ? ? ? ?`,
