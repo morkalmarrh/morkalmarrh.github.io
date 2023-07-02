@@ -1162,6 +1162,9 @@ pre {
 
 .quiz-container {
   position: relative;
-  margin-top: 40px;
-  margin-bottom: 20px;
+}
+
+.answers {
+   text-align: left;
+   margin-left: 20px;
 }
