@@ -1150,10 +1150,6 @@ pre {
 }
 
 .slide {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 20px;
   z-index: 1;
   opacity: 0;
   transition: opacity 0.5s;
@@ -1162,21 +1158,4 @@ pre {
 .active-slide {
   opacity: 1;
   z-index: 2;
-}
-
-.quiz {
-    position: relative;
-    display: block;
-	font-family: "Helvetica Neue";
-	font-size: 20px;
-	border: 1px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
-    background-color: {{ site.link-col | default: "#008AFF" }};
-}
-
-.quiz:hover {
-    background-color: {{ site.hover-col | default: "#008AFF" }};
 }
