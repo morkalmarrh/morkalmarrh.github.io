@@ -8,7 +8,8 @@ function getMaxValueKey(obj){
 }
 
 function buildQuiz(){
-    i = 0;
+ // variable to store the HTML output
+  const output = [];
  // current value, the index (the position number of the current item in the array),
  // and the array itself as parameters. We only need the current value and the index, which for our purposes, we’ll name currentQuestion and questionNumber respectively.
   myQuestions.forEach(
@@ -27,20 +28,16 @@ function buildQuiz(){
           </label>`
         );
       }
-      let output =
+      output.push(
        `<div class="slide">
         <div class="question"> ${currentQuestion.question} </div>
         <div class="answers"> ${answers.join("")} </div>
-        </div>`;
-      quizContainer.insertAdjacentHTML('beforeend', output);
-      let currentAnswers = quizContainer.querySelectorAll('.answers');
-      let answerHeight = currentAnswers[i].height;
-      quizContainer.style.height = answerHeight;
-      i++
-    }
+        </div>`
+      );
+    };
   );
   // finally combine our output list into one string of HTML and put it on the page
-  
+  quizContainer.innerHTML = output.join('');
 }
 
 function showResults(){
@@ -95,6 +92,8 @@ function showSlide(n) {
   slides[currentSlide].classList.remove('active-slide');
   slides[n].classList.add('active-slide');
   currentSlide = n;
+  let currentAnswer = currentSlide.querySelectorAll('.answers')
+  quizContainer.style.height = currentAnswer.height
   if(currentSlide === 0){
     previousButton.style.display = 'none';
     nextButton.style.display = 'inline-block';
