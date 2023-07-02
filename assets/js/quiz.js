@@ -54,7 +54,7 @@ function showResults(){
 	5: 0,
 	6: 0,
     };
-  // Must be a way to just return a particular object to place there, including images.
+
   // Plus this dict repeats itself but idk how to modify the code above to be a dict within dicts and not break it yet.
   let ansDict = {
     1: `<img src = "/assets/img/1steyes.png"></img>
@@ -82,7 +82,7 @@ function showResults(){
   let max_answer = getMaxValueKey(scoreDict);
   
   let answerString = ansDict[max_answer];
-  resultsContainer.innerHTML = answerString;
+  resultsContainer.innerHTML = answerMapped;
 }
 
 const quizContainer = document.getElementById('quiz');
