@@ -1184,28 +1184,28 @@ pre {
 }
 
 .centre-container {
+    display: inline-block;
+    width: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
+    z-index: 3;
 }
-
 
 .quiz-button {
     position: relative;
     display: block;
-	font-family: 'Open Sans';
+	font-family: Helvetica;
 	font-size: 20px;
-    border: 0px;
+    border: 2px;
     color: #FFF;
-	border-radius: 3px;
+	border-radius: 0px;
 	cursor: pointer;
     box-shadow: 0;
-    background-color: {{ site.link-col | default: "#008AFF" }};
+    background: 0;
+    border-color: {{ site.hover-col | default: "#008AFF" }};
 }
 
 .quiz-button:hover {
     background-color: {{ site.hover-col | default: "#008AFF" }};
-}
-
-#submit {
-    display: inline-block;
 }
