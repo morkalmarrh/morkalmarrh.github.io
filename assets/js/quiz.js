@@ -8,8 +8,7 @@ function getMaxValueKey(obj){
 }
 
 function buildQuiz(){
- // variable to store the HTML output
-  const output = [];
+    i = 0;
  // current value, the index (the position number of the current item in the array),
  // and the array itself as parameters. We only need the current value and the index, which for our purposes, we’ll name currentQuestion and questionNumber respectively.
   myQuestions.forEach(
@@ -28,17 +27,17 @@ function buildQuiz(){
           </label>`
         );
       }
-      output.push(
+      let output =
        `<div class="slide">
         <div class="question"> ${currentQuestion.question} </div>
         <div class="answers"> ${answers.join("")} </div>
-        </div>`
-      );
+        </div>`;
+      quizContainer.insertAdjacentHTML('beforeend', output);
+      i++
     }
   );
   // finally combine our output list into one string of HTML and put it on the page
-  quizContainer.innerHTML = output.join('');
-  let answersHeightSet = document.getElementById('.answers').height;
+  let answersHeightSet = document.querySelectorAll('answers')[i].height;
   quizContainer.style.height = answersHeight;
 }
 
