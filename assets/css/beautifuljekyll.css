@@ -119,17 +119,17 @@ img[src$="#circ"] {
 }
 
 /* QUIZ  */
-.question {
+.question{
     text-align: center;
     padding: 10px;
     font-size: 120%;
     margin-bottom: 10px;
 }
 
-.answers {
+.answers{
    text-align: left;
-   margin: 20%;
    padding: 10px;
+   margin-left: 20px;
    display: inline-block;
    margin-bottom: 20px;
 }
