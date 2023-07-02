@@ -53,7 +53,8 @@ function showResults(){
 	"4": 0,
 	"5": 0,
 	"6": 0,
-    "7": 0
+    "7": 0,
+    "moil" : 0
     };
 
   // Plus this dict repeats itself but idk how to modify the code above to be a dict within dicts and not break it yet.
@@ -69,7 +70,8 @@ function showResults(){
 	"5": `<img src = "/assets/img/"5theyes.png></img>
         You're a fifth type.`,
 	"6": `You're a sixth type.`,
-    "7": `You're ? ? ? ? ?`
+    "7": `You're ? ? ? ? ?`,
+    "moil" : `You are moil - a mix of one or more types.`
   };
 	// for each question...
   myQuestions.forEach( (currentQuestion, questionNumber) => {
