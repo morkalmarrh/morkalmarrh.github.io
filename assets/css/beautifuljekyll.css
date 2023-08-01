@@ -1218,6 +1218,18 @@ pre {
 
 */ By Pamela Dayne V */
 
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  display: none;
+}
+
 label {
   cursor: pointer;
   margin: 10px 10px;
@@ -1239,3 +1251,4 @@ input:checked + label:before {
   box-shadow: inset 0px 3px 0 2px rgba(89,202,89,1);
   background: #fff;
 }
+
