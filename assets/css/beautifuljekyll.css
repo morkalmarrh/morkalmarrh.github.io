@@ -1215,3 +1215,27 @@ pre {
   z-index: 3;
   margin-bottom: 30px;
 }
+
+*/ By Pamela Dayne V */
+
+label {
+  cursor: pointer;
+  margin: 10px 10px;
+}
+
+label:before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: #59CA59;
+  border-radius: 50%;
+  z-index: 2;
+  transition: box-shadow .4s ease,
+          background .3s ease;
+}
+
+input:checked + label:before {
+  box-shadow: inset 0px 3px 0 2px rgba(89,202,89,1);
+  background: #fff;
+}
