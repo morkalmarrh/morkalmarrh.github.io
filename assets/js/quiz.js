@@ -58,17 +58,17 @@ function showResults(){
   // Plus this dict repeats itself but idk how to modify the code above to be a dict within dicts and not break it yet.
   let ansDict = {
     "1": `<img src = "/assets/img/1steyes.png"></img>
-        You're a first type.`,
+        You're a First-type, one with the sky, the thunder, you seek justice and community.`,
     "2": `<img src = "/assets/img/2ndeyes.png"></img>
-        You're a second type.`,
+        You're a Second-type: subtle and clever, you belong in cold, quiet night.`,
 	"3": `<img src = "/assets/img/3rdeyes.png"></img>
-        You're a third type.`,
+        You're a Third-type, a being of the steady earth, your patron is lord of sacrifice and protection.`,
 	"4": `<img src = "/assets/img/4theyes.png"></img>
-        You're a fourth type.`,
+        You're a Fourth-type: familiar with the rituals of lives beginning and lives ending, fluid and strange as smoke.`,
 	"5": `<img src = "/assets/img/5theyes.png"></img>
-        You're a fifth type.`,
-	"6": `You're a sixth type.`,
-    "7": `You're ? ? ? ? ?`,
+        You're a Fifth-type - unlucky soul, sensitive, dreamy, touched by the uncaring sea.`,
+	"6": `You're a Sixth-type. They will remember what you lost, soon enough.`,
+    "7": `You're ? ? ? ? ? Are you still there?`,
     "moil" : `You are moil - a mix of one or more types.`
   };
 	// for each question...
