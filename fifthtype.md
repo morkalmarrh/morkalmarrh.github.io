@@ -3,7 +3,7 @@ layout: page
 title: Fifth-type
 ---
 
-It's said that those who are forgotten return to this world as flowers. Fifth-type is set in the city of Verinn, a monstrous conurbation built on a superstructure sunk into the sea-bed. It expands ever-upwards as its lower reaches sink into the ocean below. 
+It's said that those who are forgotten return to this world as flowers. Fifth-type is set in the city of Verinn, a monstrous conurbation built on a superstructure sunk into the sea-bed. It expands ever-upwards as its lower reaches collapse into the ocean below. 
 
 ![Verinn City!](verinn.png)
 
