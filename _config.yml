@@ -23,7 +23,6 @@ navbar-links:
   About: "aboutme"
   Other:
     - Type Quiz : "quiz"
-    - Fifth-type : "fifthtype" 
 
 ################
 # --- Logo --- #
