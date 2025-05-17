@@ -68,8 +68,9 @@ That's the main bit of advice. I won't be posting stats or doing a 'HIGMA'. Quer
 
 My fulls were about 50/50 'good fits' to 'takes my genre, I guess'. None of the agents describing in intense detail the exact things in my novel wanted to see more. 
 
-
 I got a mentorship and after it was done, I sent a query in the usual way, and I did an R&R, and then I signed. No pitch events, no conferences, just QueryManager and a prayer. Like a lot of people with their first book, I queried too early. I think everyone does. We're all soft little ducklings not realising how competetive it is out there. Luckily, I got a reality check from a friend willing to be very brutally honest with me and pulled back for serious revisions before I burned too many bridges.
+
+As a member of the #SmallPitch team (we have a Discord which you are totally welcome to join...) I also had my eye on indie presses and subbed to a few. I found them much more responsive than agents and know several friends who happily went down this avenue. Agents aren't the only way!
 
 ## Love
 
