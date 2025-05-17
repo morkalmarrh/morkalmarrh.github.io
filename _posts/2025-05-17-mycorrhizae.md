@@ -2,7 +2,7 @@
 layout: post
 title: When Querying Actually Works
 comments: true
-cover-img: /assets/img/leviathans.png
+cover-img: verinn.png
 thumbnail-img: /assets/img/090923trigger.png
 tags: [writing, querying, cyanosis]
 ---
