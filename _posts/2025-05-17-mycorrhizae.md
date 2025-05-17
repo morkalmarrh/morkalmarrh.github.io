@@ -58,7 +58,7 @@ It isn't enough to write a good book. Or even a great one. It sunk in that this 
 
 Most of you reading this will know me from the pitch event circuit. I am the guy who runs around stuffing everyone's pitches in his mouth. Overall I got 6 agent likes during pitch events and 1 agent's guide like from a small press. None of them were from my agent. Of those seven, one ghosted me, four form rejected me, one liked it but already had a similar work with their client. The last rejection came after my offer due to time concerns, so we'll never know if it might have gone a bit differently! 
 
-However, I don't regret doing pitch events. I think we all agree that there are too many right now and they're too saturated but, now and again, theyre a wonderful way to meet new people and share positivity. I would always encourage people to do them. And don't focus on the numbers, you can't control that. Just go yell at people. I felt happier when people were moved by what I said to them than when I got industry engagement, if I'm honest.
+However, I don't regret doing pitch events. I think we all agree that there are too many right now and they're too saturated but, now and again, they're a wonderful way to meet new people and share positivity. I would always encourage people to do them. And don't focus on the numbers, you can't control that. Just go yell at people. I felt happier when people were moved by what I said to them than when I got industry engagement, if I'm honest.
 
 We write to feel seen. You don't need an industry professional to be the one seeing you. Just keep that in mind.
 
