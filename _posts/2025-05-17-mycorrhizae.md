@@ -33,7 +33,7 @@ Morgan (he/they)
 
 The first thing to note is that, according to a lot of advice, I probably should have said what CYANOSIS has in common with my comps. For example, ANNIHILATION is a by-word for eco-horror right now, but I'm referring more to the Southern Reach itself and the Weird Fiction elements, as well as its sort-of-commercial, sort-of-literary placement. CITY OF LAST CHANCES features a city as a character in its own right. I chose two recent comps that aren't diastrously big and one perfect, but old and very popular, comp. Those who know me from pitch events know I comp PERDIDO STREET STATION from time to time, but it's quite old now.
 
-What She Did to the Moon is out now, by the way; this query was sent while it was going through edits. https://www.coldopenstories.com/what-she-did-to-the-moon/ Have a read!  
+What She Did to the Moon is out now, by the way; this query was sent while it was going through edits. [Have a read!](https://www.coldopenstories.com/what-she-did-to-the-moon/)
 
 Anyone reading this knows the drill by now. CYANOSIS is a complex book and it took a lot of effort to keep the interesting, unique elements in while distilling it to its hook, especially with two POVs that don't follow the same plot thread from the start. My aim here was to make people curious enough to look at the pages. The pages do a lot of heavy lifting establishing tone, voice, setting and stuff, so I was confident that if they got that far, they'd know if CYANOSIS would be something they'd like to represent or not. I kept it short: stakes, goals, voice. Relevant biographical details. Sorted.
 
