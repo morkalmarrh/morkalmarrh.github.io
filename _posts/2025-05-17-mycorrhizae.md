@@ -7,6 +7,8 @@ thumbnail-img: /assets/img/090923triggerthumb.png
 tags: [writing, querying, cyanosis]
 ---
 
+{:toc}
+
 # You Probably Need It Like a Hole in the Head
 
 Querying sucks. On 16/05/25, I signed a contract and ended one of the more mentally unpleasant stretches of my adult life. This blog isn't here to talk about stats or go on a long story about my journey here, because I think everyone's stats look different and to be honest, any kind of request is a good result in the present climate. As for the life story, this is a public blog! I haven't even done a face reveal yet. Instead I'll be sharing my letter and talking a bit about staying healthy in the trenches.
