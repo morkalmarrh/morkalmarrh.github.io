@@ -53,6 +53,7 @@ It isn't enough to write a good book. Or even a great one. It sunk in that this 
 - Reward yourself for rejection milestones. 50 rejections? Good work putting yourself out there, go for a day trip or get yourself a coffee. Whatever is within your means and ability.
 - Build a community. We'll get onto that in the next section, but this is non-negotiable. Find people querying or looking to query. You need people who understand how emotional it can be. 
 - Separate querying inbox. Do as I say, not as I do. The week after my offer, the QueryTracker weekly bulletin scared the shit out of me!
+- If you're physically able, do write a journal in pen and ink. You necessarily write slower, which helps to manage and regulate thoughts. It sounds silly but it really did help me and now serves as a record of my mental peaks and troughs.
 
 ## Pitch Events
 
