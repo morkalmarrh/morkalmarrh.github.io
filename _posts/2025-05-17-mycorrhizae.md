@@ -5,6 +5,7 @@ comments: true
 cover-img: verinn.png
 thumbnail-img: /assets/img/090923trigger.png
 tags: [writing, querying, cyanosis]
+share-img: 090923trigger.png
 ---
 
 # You Probably Need It Like a Hole in the Head
